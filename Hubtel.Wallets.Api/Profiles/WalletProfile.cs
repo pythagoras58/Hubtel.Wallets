@@ -6,6 +6,9 @@ namespace Hubtel.Wallets.Api.Profiles
 {
     public class WalletProfile : Profile
     {
+        /*
+         This class maps a source and a destination Data Transfer Objects
+         */
         public WalletProfile() 
         {
             // Map WalletsModel to Read DTO of Wallet
